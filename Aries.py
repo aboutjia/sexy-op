@@ -1306,7 +1306,7 @@ async def ping(e):
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await event.edit(f"☠️ 𝙁𝙐𝘾𝙆𝙄𝙉𝙂 𝙎𝙋𝙀𝙀𝘿 !\n`{ms}` 𝗺𝘀\n ")
+        await event.edit(f"☠️ #𝙋𝙍𝙄𝙉𝘾𝙀𝙎𝙎𝙭𝙎𝙋𝘼𝙈 !\n`{ms}` 𝗺𝘀\n ")
 
 @idk.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
 @ydk.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
